@@ -17,6 +17,7 @@
             margin-top: 50px;
 
         }
+    
 
         .slides {
 
@@ -24,6 +25,25 @@
             width: 450px;
             padding: 10px;
         }
+            @media (max-width: 700px) {
+  .slides {
+  
+        width: 300px;
+        height: 300px;
+        margin-top: 100px;
+  }
+}
+
+  @media (max-width: 450px) {
+  .slides {
+  
+        width: 200px;
+        height: 200px;
+        
+        margin: 0 23%;
+        margin-top: 150px;
+  }
+}
 
         .slide {
             display: none;
@@ -59,6 +79,7 @@
             right: 10px;
         }
 
+        @media
 
 
       
@@ -75,7 +96,7 @@
     <div class="container m-auto ">
         <button class="prev">
             < </button>
-                <div class="slides bg-gray-900 m-auto ">
+                <div class="slides bg-gray-900 m-auto  ">
                     <!-- <img src="cover1.jpg" class="slide current h-full w-full" /> -->
                     <img src="images/image1.webp" class="slide current  h-full w-full" />
                     <img src="images/image2.webp" class="slide  h-full w-full" />
